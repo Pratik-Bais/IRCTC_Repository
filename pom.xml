@@ -2,41 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>in.ashokit</groupId>
-  <artifactId>01-maven-web-app</artifactId>
+  <artifactId>IRCTC_app</artifactId>
   <packaging>war</packaging>
   <version>1.0-RELEASE</version>
-  <name>01-maven-web-app Maven Webapp</name>
+  <name>IRCTC-app Maven Webapp</name>
   <url>http://maven.apache.org</url>
 
-    <distributionManagement>  
-  	<repository>
-		<id>nexus</id>
-		<name>Ashok IT Releases Nexus Repo</name>
-		<url>http://3.110.148.197:8081/repository/ashokit-release-repository/</url>
-  	</repository>
-	
-  	<snapshotRepository>
-		<id>nexus</id>
-		<name>Ashok IT Snapshots Nexus Repo</name>
-		<url>http://3.110.148.197:8081/repository/ashokit-snapshot-repository/</url>
-  	</snapshotRepository>
-    </distributionManagement>
-
-        <repositories>
-	  <repository>
-		<id>nexus</id>
-		<url>http://3.110.148.197:8081/repository/ashokit-remote-repository/</url>
-          </repository>
-  	</repositories>	
- 
-
-  <dependencies>
-
-    <dependency>
-      <groupId>in.ashokit</groupId>
-      <artifactId>pwd-utils</artifactId>
-      <version>1.0</version>
-    </dependency>
 
     <dependency>
       <groupId>junit</groupId>
@@ -47,6 +18,6 @@
 
   </dependencies>
   <build>
-    <finalName>01-maven-web-app</finalName>
+    <finalName>IRCTC_app</finalName>
   </build>
 </project>
